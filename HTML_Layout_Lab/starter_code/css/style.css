@@ -46,14 +46,11 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #fff;
+     color: #f0efef;
      font-size: 13px;
      font-weight: 300;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-     background-size: cover;
-     text-align: center;
 }
 
 
@@ -62,14 +59,15 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
+.container {
+  width: 960px;
+  margin: 0 auto;
 }
 
 header {
-  padding: 10px;
+  padding-top: 35px;
+  height: 700px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
 }
 
 footer {
@@ -77,33 +75,37 @@ footer {
   color: #606161;
   font-size: 9px;
   font-weight: 600;
+  text-align: center;
 }
 
 h1 {
   font-size: 24px;
   font-weight: 800;
   padding-top: 30px;
+  padding-left: 10px;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 600;
-  margin: 50px 0px 50px 0px;
+  text-align: center;
+  margin: 120px 0px 90px 0px;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 600;
   color: #033048;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-h4 {
-
+a {
+  text-decoration: none;
 }
 
 h6 {
-
+  display:block;
+  margin:0 auto;
 }
 
 ul {
@@ -117,8 +119,11 @@ li {
 
 blockquote {
   font-size: 18px;
-  font-weight: 300italic;
-  padding: 10px 200px 10px 200px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 580px;
+  margin: 0 auto;
 }
 
 button {
@@ -128,17 +133,21 @@ button {
   color: #033048;
   background-color: #f9e42e;
   padding: 18px 75px 18px 75px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 0 auto;
+  display: block;
   border: 0px;
 }
 
 strong {
   font-weight: 600;
+  display: block;
+  font-style: normal;
 }
 
 img {
   padding: 50px 10px 50px 10px;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .cta {
@@ -149,6 +158,7 @@ img {
 
 .colored {
   color: #f9e42e;
+  padding-left: -10px;
 }
 
 .clear_left{
@@ -162,12 +172,14 @@ img {
 }
 
 #testimonial {
-  background-image: url("images/testimonial_bg.png");
-  background-size: cover;
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  padding: 70px 0px;
+  color: #fff;
 }
 
 #signup {
   background-color: #f9e42e;
+  padding: 30px 0px;
 }
 
 /******************************************
