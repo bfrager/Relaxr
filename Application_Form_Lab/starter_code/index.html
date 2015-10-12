@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Blank Template</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+
+			</header>
+			<div class="container">
+				<form action="/form-page" method="post">
+					<h1>Course Application</h1>
+					<h2>Your Contact Info</h2>
+					<div>
+		        <label for="name">Your Name</label>
+		        <input type="text" id="firstName" placeholder="First" />
+		        <input type="text" id="lastName" placeholder="Last" />
+			    </div>
+					<div>
+							<label for="phone">Phone Number</label>
+			        <input type="phone" id="phoneOne" />
+							<p>-</p>
+							<input type="phone" id="phoneTwo" />
+							<p>-</p>
+			        <input type="phone" id="phoneThree" />
+			    </div>
+					<div>
+			        <label for="address">Address</label>
+			        <input type="address" id="streetAddress" placeholder="Street Address"/>
+			        <input type="address" id="addressLineTwo" placeholder="Address Line Two"/>
+			        <input type="address" id="city" placeholder="City"/>
+			        <input type="address" id="state" placeholder="State"/>
+			        <input type="address" id="postalCode" placeholder="Zip Code"/>
+			    </div>
+					<h1>Skills &amp; Interests</h1>
+			    <div>
+			        <label for="course">Course</label>
+							<select>
+								<option value="select">Select One</option>
+								<p>Web Development</p>
+								<option value="front">Front-end</option>
+							  <option value="back">Back-end</option>
+								<p>Design</p>
+							  <option value="visual">Visual Design</option>
+							  <option value="user">User Experience</option>
+							</select>			    </div>
+			    <div>
+			        <label for="experience">Past Experience</label>
+			        <textarea id="experience"></textarea>
+			    </div>
+					<h1>Anything Else?</h1>
+			    <div>
+			        <label for="referral">Referral</label>
+							<select>
+								<option value="none">None</option>
+								<option value="friend">Friend</option>
+							  <option value="instructor">Instructor</option>
+							  <option value="online">Online</option>
+							</select>
+					</div>
+			    <div>
+			        <label for="comments">Comments</label>
+			        <textarea id="comments"></textarea>
+			    </div>
+					<input type="submit" name="saveDraft" value="Save Draft">
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<footer>
+
+			</footer>
+		</div><!-- #container -->
+	</body>
+</html>
